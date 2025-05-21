@@ -1,0 +1,175 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(#fff,#774b4b);
+    margin: 0;
+    padding: 0;
+}
+
+.order-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin: 50px auto;
+    position: relative;
+}
+
+.order-form h2,
+.order-form h3 {
+    text-align: center;
+}
+
+.order-form img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.order-form input,
+.order-form textarea,
+.order-form select,
+.order-form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.order-form textarea {
+    resize: none;
+    height: 60px;
+}
+
+.order-form select {
+    margin-bottom: 20px;
+}
+
+.order-form button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.order-form button:hover {
+    background-color: darkred;
+}
+
+
+.adminButon {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.adminButon:hover {
+    background-color: #0056b3;
+}
+
+
+.total-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.status-form {
+    margin-top: 30px;
+}
+
+.order-form label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.food-container {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.food-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.food-item input {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.food-item label {
+    flex-grow: 1;
+    white-space: nowrap;
+    font-size: 14px;
+    text-align: left;
+}
+
+.order-status {
+    margin-top: 20px;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .order-form {
+        width: 90%;
+        margin: 30px auto;
+    }
+}
+
+
+.food-checkbox {
+    position: absolute;
+    margin-right: 10px;
+}
+
+
+.order-status,
+.query-result {
+    background-color: #ffcc80;
+    /* Turuncu renk */
+    color: #5d4037;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.order-status.hide,
+.query-result.hide {
+    display: none;
+}
+
+.order-form {
+    margin-top: 80px;
+}

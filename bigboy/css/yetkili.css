@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background: radial-gradient(#fff,#774b4b);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #444;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+}
+
+.header h2 {
+    margin: 0;
+    display: inline-block;
+}
+
+.logout-button {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background-color: #ff6666;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #ff4d4d;
+}
+
+h3 {
+    margin-left: 20px;
+    color: #333;
+}
+
+table {
+    width: 95%;
+    margin: 10px auto 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
+
+table, th, td {
+    border: 1px solid #bbb;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+input[type="text"], select {
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    background-color: #66b3ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3399ff;
+}
+
+.status-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.status-form select {
+    margin-right: 5px;
+}
+
+.status-form button {
+    background-color: #66b3ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.status-form button:hover {
+    background-color: #3399ff;
+}
+
+a.sil-link {
+    color: #ff3333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.sil-link:hover {
+    text-decoration: underline;
+}
+
+button[name="yemek_guncelle"] {
+    background-color: #ffcc66;
+    color: #333;
+}
+
+button[name="yemek_guncelle"]:hover {
+    background-color: #ffbb33;
+}
